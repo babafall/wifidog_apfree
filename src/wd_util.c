@@ -533,6 +533,8 @@ trim_newline(char *line)
 int
 is_device_wired(const char *mac)
 {
+	return 0;
+	/*
 	FILE *fd = NULL;
 	char szcmd[128] = {0}; 
 	
@@ -546,6 +548,7 @@ is_device_wired(const char *mac)
 	}
 
 	return 0;
+	*/
 }
 
 
